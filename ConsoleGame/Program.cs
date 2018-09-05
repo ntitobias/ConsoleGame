@@ -10,6 +10,43 @@ namespace ConsoleGame
     {
         static void Main(string[] args)
         {
+            Initialize();
+
+            while (true)
+            {
+                Update();
+                Draw();
+            }
+        }
+
+        /// <summary>
+        /// 
+        /// Initierar värden i början av programmet
+        /// 
+        /// </summary>
+        static void Initialize()
+        {
+
+        }
+
+        /// <summary>
+        /// 
+        /// Innehåller programmets logik
+        /// 
+        /// </summary>
+        static void Update()
+        {
+
+        }
+
+        /// <summary>
+        /// 
+        /// Ritar ut på bildskärmen
+        /// 
+        /// </summary>
+        static void Draw()
+        {
+
         }
     }
 }
